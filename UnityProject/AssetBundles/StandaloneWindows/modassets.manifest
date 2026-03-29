@@ -1,0 +1,102 @@
+ManifestFileVersion: 0
+CRC: 2067453980
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f85d3f832283e2da838c835e712f678c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 12d4181b312c51412cbcd5be581c4a80
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f85d3f832283e2da838c835e712f678c
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 20
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 82
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 23c1ce4fb46143f46bc5cb5224c934f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 65d3fcb39dd67306e9bb17a603308070, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7a68c43fe1f2a47cfa234b5eeaa98012, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 04f75356a7e9c978bddc7d568e58a50b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c30496d6ae6d6f907456e10a94e01ec6, type: 3}
+- Class: 114
+  Script: {fileID: 92675877, guid: c47d6d09c3e0880419a2926df5ef321a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3c36d0a92cbb1f26a39169ef0eae393a, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3d0cf24d2ccc3b7eab72048d0f57c437, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 6d7127b8f98ca8ec9896b384a71d39a2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0e80ae96b3eb9177eea5c8f9dadbcda1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d5a57f767e5e46a458fc5d3c628d0cbb, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 195
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: Assembly-CSharp
+  ClassName: AISearchRoutine
+- AssemblyName: Assembly-CSharp
+  ClassName: Battery
+- AssemblyName: Assembly-CSharp
+  ClassName: EnemyBehaviourState
+- AssemblyName: Assembly-CSharp
+  ClassName: NavSizeLimit
+- AssemblyName: Unity.RenderPipelines.Core.Runtime
+  ClassName: UnityEngine.Rendering.BitArray128
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.BoolScalableSettingValue
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.FrameSettings
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.FrameSettingsOverrideMask
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.HDPhysicalCamera
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.IntScalableSettingValue
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.ObsoleteFrameSettings
+- AssemblyName: Unity.RenderPipelines.HighDefinition.Runtime
+  ClassName: UnityEngine.Rendering.HighDefinition.ObsoleteLightLoopSettings
+Assets:
+- Assets/ModAssets/RetrieverUnit/Audio/carengine.mp3
+- Assets/ModAssets/RetrieverUnit/Models/lethal_drone_car.fbx
+- Assets/ModAssets/RetrieverUnit/RetrieverUnit.asset
+- Assets/ModAssets/RetrieverUnit/RetrieverItem.asset
+- Assets/ModAssets/RetrieverUnit/BuyRetriever.asset
+Dependencies: []

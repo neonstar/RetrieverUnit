@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 18
+VisualStudioVersion = 18.4.11612.150 stable
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RetrieverUnit", "RetrieverUnit.csproj", "{442B8A05-05F3-0FAC-2C5A-D2607EBB21FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{442B8A05-05F3-0FAC-2C5A-D2607EBB21FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442B8A05-05F3-0FAC-2C5A-D2607EBB21FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{442B8A05-05F3-0FAC-2C5A-D2607EBB21FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442B8A05-05F3-0FAC-2C5A-D2607EBB21FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62B17C6F-70FF-45D7-8ABD-F648D2E90D5A}
+	EndGlobalSection
+EndGlobal
