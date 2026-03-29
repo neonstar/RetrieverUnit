@@ -31,7 +31,7 @@ namespace RetrieverUnit
             LoadAssetBundle();
 
             var harmony = new Harmony(PluginInfo.PLUGIN_GUID);
-            harmony.PatchAll();  // ← PatchAll() без аргументов подхватит ВСЕ классы с [HarmonyPatch] в сборке
+            harmony.PatchAll();  
             if (ModAssets == null)
             {
                 Logger.LogError("AssetBundle failed to load.");
@@ -75,17 +75,15 @@ namespace RetrieverUnit
             Enemies.RegisterEnemy(
                 retrieverEnemy,
                 60,
-                Levels.LevelTypes.All,        // явно указываем все уровни
-                Enemies.SpawnType.Outside,    // ← ВАЖНО: спавн снаружи
+                Levels.LevelTypes.All,       
+                Enemies.SpawnType.Outside,  
                 null,
                 null
             );
 
             Logger.LogInfo("Retriever Enemy successfully registered!");
 
-            // =========================
-            // (ОПЦИОНАЛЬНО) регистрация предмета
-            // =========================
+
             Item retrieverItem = ModAssets.LoadAsset<Item>("RetrieverItem");
 
             if (retrieverItem != null && retrieverItem.spawnPrefab != null)
